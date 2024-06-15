@@ -206,9 +206,14 @@ footer {
 }
 
 .hero {
-    background-image: url("https://images.unsplash.com/photo-1697229299093-c920ab53bfb1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2OTIzNzZ8&ixlib=rb-4.0.3&q=85");
+    background-image: url("photo1.avif");
     background-size: cover;
     background-repeat: no-repeat;
     place-content: center;
     text-align: center;
+    color: var(--primary-50);
+
+    & h1 {
+        color: var(--primary-200);
+    }
 }
